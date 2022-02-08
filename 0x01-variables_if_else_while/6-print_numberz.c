@@ -1,18 +1,17 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: end of the program
  */
-
 int main(void)
 {
-	char ch = '1';
+	int n;
 
-	for (ch = '0'; ch <= '9'; ch++)
-	putchar(ch);
+	for (n = '0'; n <= '9'; ++n)
+	putchar(n);
+
+	putchar(10);
 
 	return (0);
-
 }
