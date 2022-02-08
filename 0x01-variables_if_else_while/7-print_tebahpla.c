@@ -1,7 +1,9 @@
-#include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include<stdio.h>
+/**
+ * main - main function
+ *
+ * Return: end program
+ */
 int main(void)
 {
 	char n;
