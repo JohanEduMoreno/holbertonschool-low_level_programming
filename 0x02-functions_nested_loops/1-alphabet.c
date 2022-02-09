@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print the alphabet
+ * print_alphabet - print_alphabet
+ *
  */
 void print_alphabet(void)
 {
-	char a = 'a';
+	char a = '1';
 
-	while (a <= 'z')
+	for (a = 'a' ; a <= 'z'; a++)
 	{
 	_putchar(a);
-	++a;
 	}
 
 	_putchar(10);
-}	
+}
