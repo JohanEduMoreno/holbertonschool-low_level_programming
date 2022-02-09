@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+*_abs - computes the absolute value
+*@n: parameter or int to check
+*Return: the absolute value of int
+*/
 int _abs(int n)
 {
 	if (n > 0)
