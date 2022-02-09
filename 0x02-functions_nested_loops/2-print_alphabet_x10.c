@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * main - main function
- *
- * Return: End program
- */
+*print_alphabet_x10 - print_alphabet_x10
+*
+*/
 void print_alphabet_x10(void)
 {
 	char a = 'a';
