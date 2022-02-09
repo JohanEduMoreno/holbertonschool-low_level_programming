@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _isalpha - check if it is lowertcase or uppercase
+ * @c: character
+ * Return: 0 otherwise
  */
 int _isalpha(int c)
 {
