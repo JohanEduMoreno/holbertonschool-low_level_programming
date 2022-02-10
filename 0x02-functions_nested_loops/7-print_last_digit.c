@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_last_digit - print the last digit
+ * @n: parameter
+ * Return: Return last digit
  */
 int print_last_digit(int n)
 {
